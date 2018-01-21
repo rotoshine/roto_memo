@@ -1,0 +1,35 @@
+{
+  "name": "react_memo_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
+    "immutability-helper": "^2.6.2",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-notification-system": "^0.2.16",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.8",
+    "@storybook/addon-links": "^3.3.8",
+    "@storybook/react": "^3.3.8",
+    "redux-devtools": "^3.4.1"
+  }
+}

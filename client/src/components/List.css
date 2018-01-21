@@ -1,0 +1,74 @@
+.List {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+.List .list-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 4px;
+}
+
+
+.List .list-header .list-header-text {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.List .list-header .list-header-text h3 {
+  display: inline-block;
+  margin: 0;
+}
+
+.List .list-actions {
+  margin-top: 8px;
+}
+
+.List .list-container {  
+  flex: 1;
+  overflow-x: hidden;
+}
+
+
+.List .list-item {
+  display: flex;
+  height: 80px;
+  flex-direction: column;  
+  border-left: 2px solid #fff;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.List .list-item:last-child {
+  border-bottom: none;
+}
+
+.List .list-item:hover {
+  cursor: pointer;
+  border-left: 2px solid #eee;
+  background-color: #eee;
+}
+
+.List .list-item.selected {  
+  background-color: #e9f6f2;
+  border-left: #15a181 solid 2px;    
+}
+
+.List .list-item h3 {
+  margin: 0;
+}
+
+.List .items-empty {
+  display: flex;
+  flex: 1;
+  font-size: 2em;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}

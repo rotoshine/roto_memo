@@ -1,0 +1,50 @@
+.Labels ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Labels .header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 12px;
+}
+
+.Labels li {
+  height: 60px;
+  box-sizing: border-box;
+  margin: 10px;
+  padding-left: 5px;
+  padding-top: 18px;
+  list-style: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.Labels li:hover {
+  background-color: #eee;
+}
+
+.Labels li.selected {
+  background-color: #e9f6f2;
+  border-left: #15a181 solid 2px;
+
+}
+
+.Labels li.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Labels li.label .label-text {
+  flex: 1;
+}
+
+.Labels li .label-actions {
+  display: none;
+}
+
+.Labels li:hover .label-actions {
+  display: inline-block;
+}

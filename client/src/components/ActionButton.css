@@ -1,0 +1,33 @@
+.ActionButton {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 50%;  
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ActionButton.primary {
+  color: #fff;
+  background-color: #15a181;
+}
+
+.ActionButton.info {
+  background-color: #b7eb8f;
+  border: #95de64;
+}
+
+.ActionButton.danger {
+  color: #fff;
+  background-color: #f5222d;
+  border: #cf1322;
+}
+
+.ActionButton:active {
+  position: relative;
+  top: 1px;
+  transition: All 250ms ease;
+}

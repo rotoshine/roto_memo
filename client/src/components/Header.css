@@ -1,0 +1,11 @@
+.Header {
+  background-color: #fff;
+  height: 74px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: solid 1px #cdcdcd;
+}
+
+.Header .header-content {
+  width: 1336px;
+  margin: 0 auto;
+}

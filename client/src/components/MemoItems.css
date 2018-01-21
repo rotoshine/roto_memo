@@ -1,0 +1,22 @@
+.MemoItems {
+  height: 100%;
+}
+.MemoItems .memo-filter {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px 5px 5px;
+  height: 22px;
+}
+
+.MemoItems .memo-filter input[type=text] {
+  flex: 1;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding-left: 5px;
+}
+
+.MemoItems .match {
+  background-color: #73d13d;
+  display: inline-block;
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/express": "^4.11.0",
+    "@types/mongodb": "^3.0.2",
+    "@types/mongoose": "^4.7.32"
+  }
+}

@@ -1,0 +1,52 @@
+.EditableMemo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.EditableMemo .header {  
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.EditableMemo .header input[type=text]{
+  flex: 1;
+  border: none;
+  height: 50px;
+  font-size: 24px;  
+}
+
+.EditableMemo .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.EditableMemo .info .label {
+  display: inline-block;
+  color: #fff;
+  background-color: #15a181;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.EditableMemo .info .updated-at {
+  margin-right: 10px;
+  height: 1.5em;
+}
+
+.EditableMemo .updated-at .updated-at-text {
+  font-size: 0.7em;
+}
+
+.EditableMemo .content-editor{
+  flex: 1;  
+  height: 100%;
+  border: none;
+  resize: none;
+  font-size: 1em;
+}

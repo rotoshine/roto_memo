@@ -1,0 +1,50 @@
+.MemoItem {
+  display: flex;
+  height: 80px;
+  flex-direction: row;  
+  border-left: 2px solid #fff;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.MemoItem:last-child {
+  border-bottom: none;
+}
+
+.MemoItem:hover {
+  cursor: pointer;
+  border-left: 2px solid #eee;
+  background-color: #eee;
+}
+
+.MemoItem.selected {  
+  background-color: #e9f6f2;
+  border-left: #15a181 solid 2px;    
+}
+
+.MemoItem h3 {
+  margin: 0;
+}
+
+.MemoItem h3.empty-tittle {
+  color: #ccc;
+}
+
+.MemoItem .memo-item {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MemoItem .memo-item .head {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.MemoItem .memo-item .head .updated-at {
+  font-size: 0.7em;
+}

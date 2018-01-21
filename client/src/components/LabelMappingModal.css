@@ -1,0 +1,29 @@
+.LabelMappingModal {  
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 20%;
+  left: 50%;  
+  margin-left: -250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.LabelMappingModal .modal-header {
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.LabelMappingModal .modal-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.LabelMappingModal .buttons {
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid #ccc;
+  text-align: right;
+  
+  justify-content: flex-end;
+}
